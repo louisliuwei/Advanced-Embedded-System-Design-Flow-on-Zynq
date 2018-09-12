@@ -155,7 +155,7 @@ After completing this lab, you will be able to:
 
 1. Generate the partial bitstream files in the BIN format using the provided &quot;.bif&quot; file located in the _sources_ directory. Use the following command:
 
-    bootgen -image ..\ ..\ ..\2018\_2\_zynq\_sources\lab5\bit\_files.bif -w -process\_bitstream bin
+    bootgen -image ../ ../ ../2018\_2\_zynq\_sources/lab5/bit\_files.bif -w -process\_bitstream bin
 
 1. Rename the files _lab1.bit.bin_ and _lab3.bit.bin_ to _lab1.bin_ and _lab3.bin_
 1. The size of the file needs to match the size specified in the **lab5\_sd.c** file. The size can be determined by checking the file&#39;s properties. If the sizes do not match, then make the necessary change to the source code and save it (The values are defined as LAB1\_BITFILE\_LEN and LAB3\_BITFILE\_LEN).
